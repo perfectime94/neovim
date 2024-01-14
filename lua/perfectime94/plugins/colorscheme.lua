@@ -6,6 +6,7 @@ return {
     priority = 1000,
     config = function()
       require('rose-pine').setup {
+        disable_background = true,
         variant = 'main', -- auto, main, moon, or dawn
         dark_variant = 'main', -- main, moon, or dawn
         dim_inactive_windows = false,
