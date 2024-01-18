@@ -18,7 +18,7 @@ return {
         'html',
         'lua',
         'vimdoc',
-	'rust',
+        'rust',
       },
       incremental_selection = {
         enable = true,
