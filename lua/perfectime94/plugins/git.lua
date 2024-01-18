@@ -5,7 +5,7 @@ return {
       'plenary',
     },
     keys = {
-      { '<leader>lg', '<cmd>LazyGit<cr>', desc = '[F]ind [F]iles' },
+      { '<leader>lg', '<cmd>LazyGit<cr>', desc = '[L]azy [G]it' },
     },
   },
   {
