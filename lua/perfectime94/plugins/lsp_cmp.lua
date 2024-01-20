@@ -65,7 +65,7 @@ return {
       }
 
       mason_lsp.setup {
-        ensure_installed = { 'lua_ls', 'rust_analyzer' },
+        ensure_installed = { 'lua_ls', 'rust_analyzer', 'htmx', 'jdtls' },
         handlers = {
           function(server_name)
             local capabilities = require('cmp_nvim_lsp').default_capabilities()
