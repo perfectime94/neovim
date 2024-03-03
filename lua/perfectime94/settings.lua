@@ -1,5 +1,9 @@
 local g = vim.g
 local k = vim.keymap
+local opt = vim.opt
+
+opt.number = true
+opt.relativenumber = true
 
 g.mapleader = ' '
 g.maplocalleader = ' '
